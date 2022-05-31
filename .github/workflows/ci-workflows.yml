@@ -2,7 +2,7 @@ name: CI Workflow
 on: 
   push:
    branches:
-     - "main"     
+     - 'main'     
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,5 +13,5 @@ jobs:
        with:
           java-version: '11'
           distribuition: 'zulu'
-     - name: Maven  Compiler/Test/Package 
+     - name: Maven Compiler/Test/Package 
        run: mvn --activate-profiles prod package
