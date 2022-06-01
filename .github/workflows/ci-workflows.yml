@@ -12,6 +12,6 @@ jobs:
        uses: actions/setup-java@v3
        with:
           java-version: '11'
-          distribuition: 'zulu'
+          distribution: 'zulu'
      - name: Maven Compiler/Test/Package 
        run: mvn --activate-profiles prod package
