@@ -17,7 +17,7 @@ jobs:
      - name: Maven Compiler/Test/Package 
        run: mvn --activate-profiles prod package
      - name: Merge branch
-       uses: devmaxs/merge-branch@1.4.0
+       uses: devmasx/merge-branch@1.4.0
        with:
            type: now
            targetbranch: main
