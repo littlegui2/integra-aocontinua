@@ -17,4 +17,4 @@ jobs:
      - name: Maven Compiler/Test/Package 
        run: mvn --activate-profiles prod package
        run: mvn test
-       run: mvn package -Dskiptests
+       run: mvn package -DskipTests
