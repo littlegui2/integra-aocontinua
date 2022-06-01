@@ -15,7 +15,7 @@ public enum EStatusAtendimento {
         if (index < values().length) {
             status = values()[index];
         }
-        return status;
+        return status;//aaaaaaaaaaa//
     }
     
 }
